@@ -1,0 +1,140 @@
+#container {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 1px solid #252323;
+	border-radius: 5px;
+}
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+/*Common*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	height: 0px;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	display: block;
+	content: " ";
+	clear: both;
+}
+.clearfix{
+	list-style-type: none;
+}
+.holder{
+	max-width: 1200px;
+	margin:0px auto;
+}
+/*Form Input*/
+.form-image{
+	margin: 30px;
+}
+.form-image h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	border-bottom: 3px solid #6BEA4E;
+	margin-bottom: 30px;
+}
+.form-image .camera{
+	float: left;
+	widows: 50%;
+}
+.form-image .infor-customer{
+	float: right;
+	width: 50%;
+}
+.form-image .infor-customer .form-row .item{
+	border: 1px solid #6BEA4E;
+	border-radius: 10px;
+
+}
+.form-image .infor-customer .form-row .item :hover{
+	border: 2px solid #6BEA4E;
+
+}
+.form-image .infor-customer .form-row .gui{
+	background-color: #6BEA4E;
+	color: #fff;
+	border: 1px solid #6BEA4E;
+	font-weight: bold;
+}
+
+/*List Image*/
+.list-img{margin: 40px auto;}
+.list-img h3{
+	border-bottom: 2px solid #6BEA4E;
+	text-align: center;
+	font-weight: bold;
+	font-size: 33px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.img{
+	border: 1px solid #111;
+	border-radius: 10px;
+	width: 31.33%;
+	float: left;
+	margin: 1%;
+}
+.img img {
+  width: 90%;
+  border-radius: 10px;
+  height: auto;
+  margin: 20px;
+  float: left;
+}
+.img h4{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 21px;
+}
+.img.blur img {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+.img.brightness img {
+	-webkit-filter: brightness(0.30);
+	filter: brightness(0.30);
+}
+.img.contrast img {
+	-webkit-filter: contrast(180%);
+	filter: contrast(180%);
+}
+.img.grayscale img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.img.huerotate img {
+	-webkit-filter: hue-rotate(180deg);
+	filter: hue-rotate(180deg);
+}
+.img.invert img {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+.img.opacity img {
+	-webkit-filter: opacity(50%);
+	filter: opacity(50%);
+}
+.img.saturate img {
+	-webkit-filter: saturate(7);
+	filter: saturate(7);
+}
+.img.sepia img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+}
+.img.shadow img {
+	-webkit-filter: drop-shadow(8px 8px 10px green);
+	filter: drop-shadow(8px 8px 10px green);
+}
